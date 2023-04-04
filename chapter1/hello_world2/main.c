@@ -7,6 +7,7 @@ int main(void)
     int max_int = INT_MAX;
     float max_float = FLT_MAX;
     float small_float = 10.0 / 3;
+    
 
     printf("The max int data is %d(overflow).\n", max_int + 1);
     printf("The max float data is %f(overflow).\n", max_float * 10);
